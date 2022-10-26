@@ -1,0 +1,13 @@
+
+server:
+  port: 80
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://payment-system-rdb.cjflu0ovgeml.us-east-2.rds.amazonaws.com:3306/payment_system
+    username: admin
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
